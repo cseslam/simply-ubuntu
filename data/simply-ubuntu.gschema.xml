@@ -1,0 +1,49 @@
+<schemalist>
+    <schema id="simply-ubuntu" path="/simply-ubuntu/">
+        <key type="b" name="firefox-fonts">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="fix-joined-letters">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="ubuntu-default-fonts">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="centering-windows">
+            <default>false</default>
+            <summary>Centering windows on screen</summary>            
+        </key>
+        
+        <key type="b" name="video-subtitles-encoding">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="multimedia-codecs">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="ubuntu-restricted-extras">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="java-bundle">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+        <key type="b" name="libre-office">
+            <default>false</default>
+            <summary>Fix Joined Letters Erros</summary>            
+        </key>
+        
+    </schema>
+    </schemalist>

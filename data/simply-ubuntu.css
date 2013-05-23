@@ -1,0 +1,38 @@
+.app-desc {
+    font: 'Ubuntu' 11px;
+    color: #ddd;
+}
+
+GtkBox {
+    background-color: #ddd;
+    background-image: url('slider.svg');
+    background-position: left center;
+    background-repeat: no-repeat;        
+}
+
+GtkSwitch {    
+    font: bold;
+    color: #4d4d4d;
+    -GtkSwitch-slider-width: 22;    
+    padding-left: 1px;
+    padding-right: 12px;
+}
+
+GtkSwitch:active {        
+    padding-left: 12px;
+    padding-right: 1px;
+}
+
+GtkSwitch.slider {
+    /*border-radius: 20px;
+    background-color: #AFB8CC;
+    background-image: url('slider.svg');
+    background-repeat: none;
+    */
+    background-image: url("slider.svg");
+}
+
+GtkExpander:hover {
+    background: transparent;        
+}
+

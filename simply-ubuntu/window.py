@@ -7,7 +7,7 @@ class Window(Gtk.ApplicationWindow):
     def __init__(self, app):
         Gtk.ApplicationWindow.__init__(self, application=app)
         self.set_title(_('Simply Ubuntu'))
-        self.set_default_size(640,480)
+        self.set_default_size(400,500)
         self._setupView()
 
     def _setupView(self):

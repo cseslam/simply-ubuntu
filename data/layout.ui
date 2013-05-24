@@ -110,7 +110,7 @@
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="margin_top">9</property>
-                    <property name="margin_bottom">12</property>
+                    <property name="margin_bottom">9</property>
                     <child>
                       <object class="GtkExpander" id="expander1">
                         <property name="visible">True</property>
@@ -234,7 +234,6 @@ second line</property>
                 </child>
                 <child>
                   <object class="GtkBox" id="action3">
-                    <property name="height_request">42</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="margin_top">9</property>
@@ -298,7 +297,6 @@ second line</property>
                 </child>
                 <child>
                   <object class="GtkBox" id="action4">
-                    <property name="height_request">42</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="margin_top">9</property>
@@ -362,7 +360,6 @@ second line</property>
                 </child>
                 <child>
                   <object class="GtkBox" id="action5">
-                    <property name="height_request">42</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="margin_top">9</property>
@@ -426,7 +423,6 @@ second line</property>
                 </child>
                 <child>
                   <object class="GtkBox" id="action6">
-                    <property name="height_request">42</property>
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="margin_top">9</property>
@@ -489,5 +485,4 @@ second line</property>
       </packing>
     </child>
   </object>
-
 </interface>

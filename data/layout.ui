@@ -70,7 +70,7 @@
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <child>
-              <object class="GtkSwitch" id="switchAlL">
+              <object class="GtkSwitch" id="switchAll">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="valign">center</property>

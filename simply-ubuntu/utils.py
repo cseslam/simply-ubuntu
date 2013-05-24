@@ -12,8 +12,38 @@ class Operations():
     def __init__(self):
         pass
 
-    def installPackage(self, pkgName):
+    def _installPackage(self, pkgName):
         call([""], shell=True)
+
+    def getOperation(self, op):
+        if op == "OP1":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP2":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP3":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP4":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP5":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP5":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        return boolean
+
+    def setOperation(self, op):
+        if op == "OP1":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP2":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP3":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP4":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP5":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+        elif op == "OP5":
+            call['sudo update-alternatives --set xinput-all_ALL /etc/X11/xinit/xinput.d/default-xim', shell=True]
+
 
 """
     def fix_la(self):
